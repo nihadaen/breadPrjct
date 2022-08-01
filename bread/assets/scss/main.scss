@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    img {
+        width: 100%;
+    }
+}
+
+.order-now {
+    background-color: #7e594e;
+    color: white;
+}
+
+.first {
+    background-image: url('https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnJlYWR8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    h2 {
+        font-size: 54px;
+        position: relative;
+    }
+
+    span {
+        font-size: 20px;
+        position: relative;
+    }
+}
+
+.first::before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+
+}
+
+.card-title {
+    color: #39001e;
+    font-size: 26px;
+}
+
+.second {
+    background-image: url('https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?w=2000');
+}
+
+.card-footer {
+    color: #951802;
+}
+
+footer {
+    color: white;
+    background-image: url('https://newkit.moxcreative.com/breadmeal/wp-content/uploads/sites/6/2022/07/bread-and-bakery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    li {
+        list-style-type: none;
+        position: relative;
+        padding-left: 8px;
+    }
+
+    li:before {
+        content: "\25BA \0020";
+        color: #f12c09;
+        font-size: 12px;
+        position: absolute;
+        top: 5px;
+        left: -10px;
+    }
+    .bottom{
+        span{
+            color: white;
+            position: relative;
+        }
+    }
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+
+}
+
+@media screen and (max-width: 992px) {
+    .nav-links{
+        visibility: hidden;
+    }
+}
